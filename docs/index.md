@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: brand
+      text: Vim Cheat Sheet
+      link: /vim-cheat-sheet
 
 features:
   - title: Feature A
