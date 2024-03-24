@@ -13,6 +13,12 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'Cheat Sheets',
+        items: [
+          { text: 'Vim', link: '/vim-cheat-sheet' },
+        ]
+      },
+      {
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
@@ -22,7 +28,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/kurtmc' }
     ]
   }
 })
