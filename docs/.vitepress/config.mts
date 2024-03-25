@@ -28,7 +28,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/kurtmc' }
+      { icon: 'github', link: 'https://github.com/kurtmc' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/kurt-mcalpine' },
     ]
   }
 })
