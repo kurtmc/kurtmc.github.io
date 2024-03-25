@@ -24,7 +24,13 @@ export default defineConfig({
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
-      }
+      },
+      {
+        text: 'curriculum vitae',
+        items: [
+          { text: 'cv', link: '/cv' },
+        ]
+      },
     ],
 
     socialLinks: [
