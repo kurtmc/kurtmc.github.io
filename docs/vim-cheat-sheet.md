@@ -18,3 +18,7 @@ And typing `crm` [mnemonic: CoeRce to MixedCase] would take you back to:
 # Delete empty lines
 
 `:g/^$/d`
+
+# Auto increment visually selected numbers
+
+`g<C-A>`
