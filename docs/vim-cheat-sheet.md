@@ -17,4 +17,4 @@ And typing `crm` [mnemonic: CoeRce to MixedCase] would take you back to:
 
 # Delete empty lines
 
-`:g/^$/d
+`:g/^$/d`
