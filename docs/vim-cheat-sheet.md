@@ -14,3 +14,7 @@ Typing `crs` [mnemonic: CoeRce to Snake_case] would give you:
 And typing `crm` [mnemonic: CoeRce to MixedCase] would take you back to:
 
 `MixedCase`
+
+# Delete empty lines
+
+`:g/^$/d
