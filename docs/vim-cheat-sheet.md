@@ -22,3 +22,19 @@ And typing `crm` [mnemonic: CoeRce to MixedCase] would take you back to:
 # Auto increment visually selected numbers
 
 `g<C-A>`
+
+# vim-surround: surround word in `[]`
+
+`ys` is the operator from `vim-surround`
+
+`iw` is the inner word
+
+`]` is the character to add
+
+`ysiw]`
+
+# vim-surround: surround word in `\``
+
+`ysiw\``
+
+See more: https://github.com/tpope/vim-surround
