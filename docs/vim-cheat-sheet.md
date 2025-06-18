@@ -33,8 +33,8 @@ And typing `crm` [mnemonic: CoeRce to MixedCase] would take you back to:
 
 `ysiw]`
 
-# vim-surround: surround word in `\``
+# vim-surround: surround word in `````
 
-`ysiw\``
+``ysiw```
 
 See more: https://github.com/tpope/vim-surround
