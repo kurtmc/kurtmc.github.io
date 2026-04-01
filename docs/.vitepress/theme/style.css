@@ -250,8 +250,9 @@ html, body {
   height: 24px;
 }
 
-.start-button img {
+.start-button svg {
   image-rendering: pixelated;
+  flex-shrink: 0;
 }
 
 .taskbar-tray {
@@ -288,6 +289,51 @@ html, body {
 
 .page-content .danger {
   background: #ffcccc;
+}
+
+/* VitePress Shiki code blocks */
+.page-content div[class*="language-"] {
+  position: relative;
+  margin: 8px 0;
+}
+
+.page-content div[class*="language-"] > span.lang {
+  position: absolute;
+  top: 2px;
+  right: 6px;
+  font-size: 10px;
+  color: #808080;
+  font-family: "Fixedsys", "Courier New", monospace;
+  z-index: 1;
+}
+
+.page-content div[class*="language-"] > button.copy {
+  display: none;
+}
+
+/* VitePress custom container overrides */
+.page-content .custom-block {
+  padding: 8px 12px;
+  margin: 8px 0;
+  border: 2px outset #c0c0c0;
+  background: #dfdfdf;
+}
+
+.page-content .custom-block.warning {
+  background: #ffffcc;
+}
+
+.page-content .custom-block.danger {
+  background: #ffcccc;
+}
+
+.page-content .custom-block.tip {
+  background: #ccffcc;
+}
+
+.page-content .custom-block .custom-block-title {
+  font-weight: bold;
+  margin-bottom: 4px;
 }
 
 /* Responsive */

@@ -64,7 +64,12 @@ const isHome = computed(() => frontmatter.value.layout === 'home')
     <div class="taskbar">
       <div class="taskbar-start">
         <button class="start-button">
-          <img src="https://win98icons.alexmeub.com/icons/png/windows-0.png" alt="" width="16" height="16" />
+          <svg width="16" height="16" viewBox="0 0 16 16" style="image-rendering: pixelated;">
+            <rect x="1" y="1" width="6" height="6" fill="#FF0000"/>
+            <rect x="8" y="1" width="6" height="6" fill="#00FF00"/>
+            <rect x="1" y="8" width="6" height="6" fill="#0000FF"/>
+            <rect x="8" y="8" width="6" height="6" fill="#FFFF00"/>
+          </svg>
           <span>Start</span>
         </button>
       </div>
